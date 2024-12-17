@@ -3,18 +3,18 @@
 ## Key concepts
 
 - `Yarn`: For this tutorial we will use` yarn` since personally it solves dependencies better, it has more functions that `npm` does not have and is used in other projects. The commands are very similar, don't worry if you haven't seen `yarn` yet.
-- [`lit-plugin`] (https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin) Is a syntax highlighting, type checking and code completion for `lit` in VS Code.
-- [`Vite`] (https://vitejs.dev/) is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+- [`lit-plugin`](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin) Is a syntax highlighting, type checking and code completion for `lit` in VS Code.
+- [`Vite`](https://vitejs.dev/) is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 ## 🚀 Dev setup
 
-Note: This repo is forked from the [Lit Simple Starter Kit](https://github.com/litelement-dev/lit-simple-starter-kit)
+_Note: This repo is forked from the [Lit Simple Starter Kit](https://github.com/litelement-dev/lit-simple-starter-kit)._
 
 ### Requirements
 
 - Have `npm` or` yarn` installed
 - Use VS code
-- Have installed `lit-plugin` for VS Code. Download: [`lit-plugin by Rune Mehlsen`] (https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin)
+- Have installed `lit-plugin` for VS Code. Download: [`lit-plugin by Rune Mehlsen`](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin)
 
 ### Local setup
 
