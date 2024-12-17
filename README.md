@@ -2,9 +2,14 @@
 
 ## Key concepts
 
-- `Yarn`: For this tutorial we will use` yarn` since personally it solves dependencies better, it has more functions that `npm` does not have and is used in other projects. The commands are very similar, don't worry if you haven't seen `yarn` yet.
+- `Yarn`: This project uses ` yarn` - creators of the starter kit said it solves dependencies better, it has more functions that `npm` does not have and is used in other projects. The commands are very similar, don't worry if you haven't seen `yarn` yet.
 - [`lit-plugin`](https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin) Is a syntax highlighting, type checking and code completion for `lit` in VS Code.
-- [`Vite`](https://vitejs.dev/) is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+- [`Vite`](https://vitejs.dev/) is a build tool that aims to provide a faster and leaner development experience for modern web projects. See `vite.config.ts` for build configuration.
+
+## Components
+
+- Button (`src/nj-button.ts`)
+- Icon (`src/nj-icon.ts`)
 
 ## 🚀 Dev setup
 
