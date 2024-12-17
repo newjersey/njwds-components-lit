@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lit Element Simple Starter Kit</title>
-</head>
-<body>
-    <my-element></my-element>
-    <script type="module" src="/src/my-element.ts"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Jersey Web Design System</title>
+    <!-- <link href="./dist/assets/button.css" rel="stylesheet" /> -->
+    <style>
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body style="padding: 12px; font-family: sans-serif">
+    <h1>NJWDS Lit Components</h1>
+    <h2>Button</h2>
+    <div style="margin-bottom: 12px; display: flex; align-items: center">
+      <nj-button variant="primary">Primary Light</nj-button>
+      <nj-button variant="secondary">Secondary Light</nj-button>
+      <nj-button variant="link">Link Light</nj-button>
+    </div>
+    <div style="margin-bottom: 12px; display: flex; align-items: center">
+      <nj-button variant="primary" icon-name="add" icon-position="leading"
+        >Primary Light</nj-button
+      >
+      <nj-button variant="primary" icon-name="add" icon-position="trailing"
+        >Primary Light</nj-button
+      >
+      <nj-button
+        variant="primary"
+        icon-name="add"
+        icon-position="icon-only"
+        icon-title="Add"
+      ></nj-button>
+      <nj-button variant="link" icon-name="add" icon-position="trailing"
+        >Link Light</nj-button
+      >
+      <nj-button variant="link" icon-name="add" icon-position="leading"
+        >Link Light</nj-button
+      >
+    </div>
+    <div style="margin-bottom: 12px; display: flex; align-items: center">
+      <nj-button variant="secondary" icon-name="add" icon-position="leading"
+        >Secondary Light</nj-button
+      >
+      <nj-button variant="secondary" icon-name="add" icon-position="trailing"
+        >Secondary Light</nj-button
+      >
+      <nj-button
+        variant="secondary"
+        icon-name="add"
+        icon-position="icon-only"
+        icon-title="Add"
+      ></nj-button>
+    </div>
+    <div
+      style="
+        margin-bottom: 12px;
+        background-color: black;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+      "
+    >
+      <nj-button variant="primary" mode="dark">Primary Dark</nj-button>
+      <nj-button variant="secondary" mode="dark">Secondary Dark</nj-button>
+      <nj-button variant="link" mode="dark">Link Dark</nj-button>
+    </div>
+    <div
+      style="
+        margin-bottom: 12px;
+        background-color: black;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+      "
+    >
+      <nj-button
+        variant="primary"
+        mode="dark"
+        icon-name="add"
+        icon-position="leading"
+        >Primary Dark</nj-button
+      >
+      <nj-button
+        variant="secondary"
+        mode="dark"
+        icon-name="add"
+        icon-position="trailing"
+        >Secondary Dark</nj-button
+      >
+      <nj-button
+        variant="secondary"
+        icon-name="add"
+        icon-position="icon-only"
+        icon-title="Add"
+      ></nj-button>
+    </div>
+    <div style="margin-bottom: 12px; display: flex; align-items: center">
+      <nj-button variant="primary" mode="danger">Primary Danger</nj-button>
+      <nj-button variant="secondary" mode="danger">Secondary Danger</nj-button>
+      <nj-button variant="link" mode="danger">Link Danger</nj-button>
+    </div>
+
+    <h2>Icon</h2>
+    <div style="margin-bottom: 12px">
+      <nj-icon icon-name="info" size="scale" decorative="true"></nj-icon>
+      <nj-icon icon-name="info" size="3" decorative="true"></nj-icon>
+      <nj-icon icon-name="info" size="4" decorative="true"></nj-icon>
+      <nj-icon icon-name="info" size="5" decorative="true"></nj-icon>
+    </div>
+
+    <script
+      type="module"
+      src="./dist/components/nj-button/nj-button.mjs"
+    ></script>
+    <script type="module" src="./dist/components/nj-icon/nj-icon.mjs"></script>
+  </body>
 </html>
