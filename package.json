@@ -4,14 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "install": "yarn install",
     "build": "vite build",
     "prod": "vite preview",
     "dev": "vite",
     "test": "web-test-runner **/*.test.js --node-resolve"
   },
   "dependencies": {
-    "@newjersey/njwds": "^2.0.1",
+    "@newjersey/njwds": "^2.1.0",
     "@open-wc/testing": "^4.0.0",
     "chai": "^5.1.2",
     "lit": "^3.2.0",

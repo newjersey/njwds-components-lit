@@ -1,7 +1,7 @@
 import { LitElement, html, unsafeCSS } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { ifDefined } from "lit/directives/if-defined.js";
-import style from "../node_modules/@newjersey/njwds/dist/css/button.css?inline";
+import style from "../node_modules/@newjersey/njwds/dist/css/icon.css?inline";
 
 const SIZE_TO_CLASS = {
   scale: "nj-icon--size-scale",

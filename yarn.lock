@@ -173,10 +173,10 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@newjersey/njwds@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@newjersey/njwds/-/njwds-2.0.1.tgz#8e23e58b5c698dacd5f2b3ba098f081f25763fce"
-  integrity sha512-vPQ5taWGIHDPFqsuW9AXIuD/fejQMhb/TYI2PiGLWBdvuAlLq5uVnqI1/fDFzq4UqYANJifBo37tNXW9v2UVxA==
+"@newjersey/njwds@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@newjersey/njwds/-/njwds-2.1.0.tgz#5954851a56a86b7ef402be40c9aef0c40acf05f9"
+  integrity sha512-o10ERzVPUiQCXmmoDyXPxmjj5OIIF21VkU9CjF+1tNjB0cZkaTqaSjziW62+E57iYVIqlgSqTDei02qvO8AS7w==
   dependencies:
     "@uswds/uswds" "3.10.0"
 
