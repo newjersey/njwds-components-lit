@@ -13,7 +13,7 @@ const SIZE_TO_CLASS = {
 type Size = "3" | "4" | "5" | "scale";
 
 @customElement("nj-icon")
-export class NjButton extends LitElement {
+export class NjIcon extends LitElement {
   static styles = [unsafeCSS(style)];
 
   @property({ attribute: "icon-name" }) iconName!: string;
